@@ -1,0 +1,111 @@
+/*body {
+background-color: #eaf2e3;
+color: #333;
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+.flex-container {
+	text-align: center;
+}
+
+.flex-item {
+	font-weight: 900;
+	font-style: italic;
+}*/
+
+* {
+	font-family: Arial,sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+background-color: #69bd45;
+color: #fff;
+text-align: center;
+padding: 20px;
+}
+
+section {
+padding: 20px; /* espaciado para la sección de 20 pixeles */
+font-weight: 700;
+}
+
+footer {
+background-color: #4caf50; /* Color de fondo del footer */
+padding: 20px 0;
+}
+
+footer p {
+	color: #fff;
+}
+
+footer a {
+	text-decoration: none;
+	color: #333;
+	transition: color 0.3s;
+}
+
+footer a:hover {
+	color: #fff;
+}
+
+.footer-content {
+max-width: 800px; /* Ancho máximo del contenido del footer */
+margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
+text-align: center;
+}
+
+nav {
+background-color: #4caf50;
+padding: 10px;
+}
+
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+
+nav ul li {
+display: inline-block;
+margin-right: 20px;
+}
+
+nav ul li a {
+color: #fff;
+text-decoration: none;
+padding: 8px 16px;
+border-radius: 5px;
+transition: background-color 0.5s;
+font-weight: 700;
+}
+
+nav ul li a:hover {
+background-color: #2f8247;
+color: #333;
+}
+
+img {
+display: block; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+margin: 0 auto; /* Centrar las imágenes horizontalmente */
+max-width: 100%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+border: 5px solid #4caf50; /* Contorno de 3px con un color verde (#69bd45) alrededor de la img.*/
+border-radius: 200px; /* Borde redondeado de 10px para suavizar el contorno */
+box-shadow: 0 0 80px #2f8247;
+}
+
+.logo {
+	height: 250px;
+}
+
+.flex-img {
+	height: 200px;
+	margin: 50px auto;
+}
